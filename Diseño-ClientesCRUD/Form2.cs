@@ -23,6 +23,7 @@ namespace Diseño_ClientesCRUD
             InitializeComponent();
             this.FormPrincipal = FormPrincipal;
             FormContacto = new Cliente_Contacto(this);
+            this.BackColor = Color.LightBlue;
         }
 
         public void btnRetrocedes_Click(object sender, EventArgs e)

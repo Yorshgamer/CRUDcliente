@@ -28,7 +28,7 @@ namespace Diseño_ClientesCRUD
             }
             catch (Exception)
             {
-
+                MessageBox.Show("No se puedo conectar a la abse de datos");
             }
         }
 

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cliente_direcciones));
             this.button6 = new System.Windows.Forms.Button();
             this.btnRetrocedes = new System.Windows.Forms.Button();
             this.btnSaliir = new System.Windows.Forms.Button();
@@ -38,8 +39,9 @@
             this.btnCont = new System.Windows.Forms.Button();
             this.btnDirec = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button6
@@ -74,7 +76,7 @@
             // 
             // txtboxDireccion
             // 
-            this.txtboxDireccion.Location = new System.Drawing.Point(161, 201);
+            this.txtboxDireccion.Location = new System.Drawing.Point(200, 240);
             this.txtboxDireccion.Name = "txtboxDireccion";
             this.txtboxDireccion.Size = new System.Drawing.Size(208, 22);
             this.txtboxDireccion.TabIndex = 35;
@@ -82,7 +84,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(22, 207);
+            this.label4.Location = new System.Drawing.Point(61, 243);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(133, 16);
             this.label4.TabIndex = 34;
@@ -136,15 +138,6 @@
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(271, 253);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 38);
-            this.button1.TabIndex = 44;
-            this.button1.Text = "Aceptar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(524, 100);
@@ -152,13 +145,23 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(266, 22);
             this.dateTimePicker1.TabIndex = 45;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(451, 172);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(330, 154);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 46;
+            this.pictureBox1.TabStop = false;
+            // 
             // Cliente_direcciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(802, 400);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.btnRetrocedes);
             this.Controls.Add(this.btnSaliir);
@@ -172,6 +175,7 @@
             this.Name = "Cliente_direcciones";
             this.Text = "MAPLIDE-Direcciones";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Cliente_direcciones_FormClosing);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -189,7 +193,7 @@
         private System.Windows.Forms.Button btnCont;
         private System.Windows.Forms.Button btnDirec;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

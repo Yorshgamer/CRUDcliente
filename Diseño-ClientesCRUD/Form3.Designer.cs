@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cliente_Contacto));
             this.button6 = new System.Windows.Forms.Button();
             this.btnRetrocedes = new System.Windows.Forms.Button();
             this.btnSaliir = new System.Windows.Forms.Button();
@@ -41,6 +42,8 @@
             this.button9 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.txtboxCorreo = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button6
@@ -75,7 +78,7 @@
             // 
             // txtboxNumCont
             // 
-            this.txtboxNumCont.Location = new System.Drawing.Point(319, 222);
+            this.txtboxNumCont.Location = new System.Drawing.Point(191, 225);
             this.txtboxNumCont.Name = "txtboxNumCont";
             this.txtboxNumCont.Size = new System.Drawing.Size(245, 22);
             this.txtboxNumCont.TabIndex = 52;
@@ -83,7 +86,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(180, 228);
+            this.label4.Location = new System.Drawing.Point(40, 228);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(131, 16);
             this.label4.TabIndex = 51;
@@ -147,7 +150,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(180, 278);
+            this.label3.Location = new System.Drawing.Point(40, 275);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(120, 16);
             this.label3.TabIndex = 57;
@@ -155,16 +158,27 @@
             // 
             // txtboxCorreo
             // 
-            this.txtboxCorreo.Location = new System.Drawing.Point(319, 272);
+            this.txtboxCorreo.Location = new System.Drawing.Point(191, 275);
             this.txtboxCorreo.Name = "txtboxCorreo";
             this.txtboxCorreo.Size = new System.Drawing.Size(245, 22);
             this.txtboxCorreo.TabIndex = 58;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(481, 198);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(284, 153);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 59;
+            this.pictureBox1.TabStop = false;
             // 
             // Cliente_Contacto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtboxCorreo);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button6);
@@ -180,6 +194,7 @@
             this.Controls.Add(this.button9);
             this.Name = "Cliente_Contacto";
             this.Text = "MAPLIDE-Metodos_de_contacto";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -199,5 +214,6 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtboxCorreo;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -24,6 +24,7 @@ namespace Diseño_ClientesCRUD
             InitializeComponent();
             this.Formdirecciones = Formdirecciones;
             FormPrincipal = Formdirecciones.GetFormPrincipal();
+            this.BackColor = Color.LightBlue;
         }
 
         private void btnSaliir_Click(object sender, EventArgs e)

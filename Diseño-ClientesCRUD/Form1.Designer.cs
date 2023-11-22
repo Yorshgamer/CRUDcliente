@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             this.btnCRUDclipro = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -61,10 +62,14 @@
             this.textboxMaterno = new System.Windows.Forms.TextBox();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCRUDclipro
             // 
+            this.btnCRUDclipro.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCRUDclipro.BackgroundImage")));
+            this.btnCRUDclipro.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCRUDclipro.Location = new System.Drawing.Point(0, -1);
             this.btnCRUDclipro.Name = "btnCRUDclipro";
             this.btnCRUDclipro.Size = new System.Drawing.Size(126, 66);
@@ -74,6 +79,8 @@
             // 
             // button2
             // 
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(132, -2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(126, 67);
@@ -83,6 +90,8 @@
             // 
             // button1
             // 
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(264, -1);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(126, 67);
@@ -92,6 +101,8 @@
             // 
             // button3
             // 
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(396, -1);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(126, 67);
@@ -101,6 +112,8 @@
             // 
             // button4
             // 
+            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(528, -2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(126, 67);
@@ -110,6 +123,8 @@
             // 
             // button5
             // 
+            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(660, -1);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(126, 67);
@@ -119,6 +134,8 @@
             // 
             // btnSalir
             // 
+            this.btnSalir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSalir.BackgroundImage")));
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.Location = new System.Drawing.Point(790, -1);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(126, 67);
@@ -129,6 +146,7 @@
             // 
             // button7
             // 
+            this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
             this.button7.Location = new System.Drawing.Point(0, 71);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(458, 52);
@@ -138,6 +156,7 @@
             // 
             // button8
             // 
+            this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
             this.button8.Location = new System.Drawing.Point(464, 72);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(452, 51);
@@ -147,6 +166,7 @@
             // 
             // listBox1
             // 
+            this.listBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
             this.listBox1.Items.AddRange(new object[] {
@@ -254,7 +274,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(624, 326);
+            this.label5.Location = new System.Drawing.Point(628, 286);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(33, 16);
             this.label5.TabIndex = 20;
@@ -262,7 +282,7 @@
             // 
             // txtboxDNI
             // 
-            this.txtboxDNI.Location = new System.Drawing.Point(663, 323);
+            this.txtboxDNI.Location = new System.Drawing.Point(667, 283);
             this.txtboxDNI.Name = "txtboxDNI";
             this.txtboxDNI.Size = new System.Drawing.Size(208, 22);
             this.txtboxDNI.TabIndex = 21;
@@ -270,7 +290,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(602, 391);
+            this.label6.Location = new System.Drawing.Point(606, 351);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(55, 16);
             this.label6.TabIndex = 22;
@@ -282,7 +302,7 @@
             this.cboxGenero.Items.AddRange(new object[] {
             "Masculino",
             "Femenino"});
-            this.cboxGenero.Location = new System.Drawing.Point(663, 391);
+            this.cboxGenero.Location = new System.Drawing.Point(667, 351);
             this.cboxGenero.Name = "cboxGenero";
             this.cboxGenero.Size = new System.Drawing.Size(208, 24);
             this.cboxGenero.TabIndex = 23;
@@ -369,11 +389,22 @@
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(631, 391);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(244, 96);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 33;
+            this.pictureBox1.TabStop = false;
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(919, 573);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.textboxMaterno);
@@ -409,6 +440,7 @@
             this.Controls.Add(this.btnCRUDclipro);
             this.Name = "Principal";
             this.Text = "MAPLIDE";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -449,6 +481,7 @@
         private System.Windows.Forms.TextBox textboxMaterno;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

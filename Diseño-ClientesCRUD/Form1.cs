@@ -24,6 +24,7 @@ namespace Diseño_ClientesCRUD
             InitializeComponent();
             Formdirecciones = new Cliente_direcciones(this);
             FormContacto = new Cliente_Contacto(Formdirecciones);
+            this.BackColor = Color.LightBlue;
         }
         private void btnDirec_Click(object sender, EventArgs e)
         {
